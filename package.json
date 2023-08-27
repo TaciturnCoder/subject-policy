@@ -1,0 +1,28 @@
+{
+  "name": "@dwijbavisi/subject-policy",
+  "version": "1.0.0",
+  "description": "Subject-observer pattern with seperation of concern.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "0.19.2",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "tsc -p spec/tsconfig.json",
+    "build:dist": "node spec/esbuild.mjs",
+    "test": "tsc -p __tests__/tsconfig.json && node __tests__/node.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaciturnCoder/subject-policy.git"
+  },
+  "author": "Dwij Bavisi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TaciturnCoder/subject-policy/issues"
+  },
+  "homepage": "https://github.com/TaciturnCoder/subject-policy#readme"
+}
